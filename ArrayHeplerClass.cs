@@ -60,25 +60,29 @@ namespace ArrayHelper
 
             return array.Length;
         }
-        public static T[] Slice(ref T[] array, int begin_index = 0, int end_index = 0)
+        public static T[] Slice(ref T[] array, int? begin_index = null, int? end_index = null)
         {
-            int new_len, len = array.Length;
+            int len = array.Length;
+            begin_index = begin_index ?? 0;
+            end_index   = end_index   ?? len - 1;
+            
+            if (end_index < 0)
+            {
+                end_index = len - 1 + end_index;
+            }
             if (begin_index < 0)
             {
                 begin_index = end_index + begin_index;
             }
-            if (end_index == 0)
-            {
-                end_index = len - 1;
-            }
-            else if (end_index < 0)
-            {
-                end_index = len - 1 + end_index;
-            }
-            new_len = (end_index - begin_index > 0) ? end_index - begin_index:0; 
+
+            int new_len = (end_index - begin_index > 0) ? (int)(end_index - begin_index):0; 
+            Console.Write($"new len = {new_len}");
             T[] sub_array = new T[new_len];
+            for (int i = 0; i <= new_len; i++)
+            {
+                sub_array[i] = array[i + (int)begin_index];
+            }
             return sub_array;        
         }
-        
     }
 }

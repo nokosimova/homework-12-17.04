@@ -1,0 +1,13 @@
+C:\projects\hw(17.04)\bin\Debug\netcoreapp3.1\ArrayHelper.exe
+C:\projects\hw(17.04)\bin\Debug\netcoreapp3.1\ArrayHelper.deps.json
+C:\projects\hw(17.04)\bin\Debug\netcoreapp3.1\ArrayHelper.runtimeconfig.json
+C:\projects\hw(17.04)\bin\Debug\netcoreapp3.1\ArrayHelper.runtimeconfig.dev.json
+C:\projects\hw(17.04)\bin\Debug\netcoreapp3.1\ArrayHelper.dll
+C:\projects\hw(17.04)\bin\Debug\netcoreapp3.1\ArrayHelper.pdb
+C:\projects\hw(17.04)\obj\Debug\netcoreapp3.1\ArrayHelper.csprojAssemblyReference.cache
+C:\projects\hw(17.04)\obj\Debug\netcoreapp3.1\ArrayHelper.csproj.CoreCompileInputs.cache
+C:\projects\hw(17.04)\obj\Debug\netcoreapp3.1\ArrayHelper.AssemblyInfoInputs.cache
+C:\projects\hw(17.04)\obj\Debug\netcoreapp3.1\ArrayHelper.AssemblyInfo.cs
+C:\projects\hw(17.04)\obj\Debug\netcoreapp3.1\ArrayHelper.dll
+C:\projects\hw(17.04)\obj\Debug\netcoreapp3.1\ArrayHelper.pdb
+C:\projects\hw(17.04)\obj\Debug\netcoreapp3.1\ArrayHelper.genruntimeconfig.cache
