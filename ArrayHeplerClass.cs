@@ -64,11 +64,11 @@ namespace ArrayHelper
         {
             int len = array.Length;
             begin_index = begin_index ?? 0;
-            end_index   = end_index   ?? len - 1;
+            end_index   = end_index   ?? len;
             
             if (end_index < 0)
             {
-                end_index = len - 1 + end_index;
+                end_index = len  + end_index;
             }
             if (begin_index < 0)
             {
@@ -76,9 +76,9 @@ namespace ArrayHelper
             }
 
             int new_len = (end_index - begin_index > 0) ? (int)(end_index - begin_index):0; 
-            Console.Write($"new len = {new_len}");
+            Console.WriteLine($"new len = {new_len}");
             T[] sub_array = new T[new_len];
-            for (int i = 0; i <= new_len; i++)
+            for (int i = 0; i < new_len; i++)
             {
                 sub_array[i] = array[i + (int)begin_index];
             }
